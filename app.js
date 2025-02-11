@@ -1,1 +1,1 @@
-console.log="Hallo";
+console.log="Hallo nama saya adalah Fedro Saut Wibsiono Togatorop";
