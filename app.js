@@ -1,6 +1,9 @@
 // console.log="Hallo nama saya adalah Fedro Saut Wibsiono Togatorop";
-if (1+1===3) {
-    console.log("Betul");
+
+console.log("before differ");
+
+if (1+1===3  ) {
+    console.log("true");
 }else{
-    console.log("Salah");
+    console.log("wrong");
 }
