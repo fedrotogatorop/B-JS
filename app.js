@@ -8,10 +8,17 @@
 //     console.log("wrong");
 // }
 
-let angka = Math.random();
-console.log(angka);
-if (angka>=0.5) {
-    console.log("The number is bigger than");
-}else{
-    console.log("The number is smaller than");
+// let angka = Math.random();
+// console.log(angka);
+// if (angka>=0.5) {
+//     console.log("The number is bigger than");
+// }else{
+//     console.log("The number is smaller than");
+// }
+const iniHari = "Monday";
+
+if (iniHari === "Monday") {
+  console.log("Happy Work Week Guys");
+} else if (iniHari === "Sabtu") {
+  console.log("Happy Weekend Guys");
 }
