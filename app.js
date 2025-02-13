@@ -15,10 +15,21 @@
 // }else{
 //     console.log("The number is smaller than");
 // }
-const iniHari = "Monday";
 
-if (iniHari === "Monday") {
-  console.log("Happy Work Week Guys");
-} else if (iniHari === "Sabtu") {
-  console.log("Happy Weekend Guys");
-}
+// const iniHari = "Monday";
+
+// if (iniHari === "Monday") {
+//   console.log("Happy Work Week Guys");
+// } else if (iniHari === "Sabtu") {
+//   console.log("Happy Weekend Guys");
+// }
+
+const nilai = "80";
+
+if (nilai > 80) {
+  console.log("A");
+} else if (nilai > 60) {
+  console.log("B");
+} else if (nilai > 40) {
+  console.log(C);
+} else console.log("You will remedial");
