@@ -16,20 +16,22 @@
 //     console.log("The number is smaller than");
 // }
 
-// const iniHari = "Monday";
+const iniHari = "Minggu";
 
-// if (iniHari === "Monday") {
-//   console.log("Happy Work Week Guys");
-// } else if (iniHari === "Sabtu") {
-//   console.log("Happy Weekend Guys");
-// }
+if (iniHari === "Monday") {
+  console.log("Happy Work Week Guys");
+} else if (iniHari === "Sabtu") {
+  console.log("Happy Weekend Guys");
+} else {
+  console.log("same as like Work Week");
+}
 
-const nilai = "80";
+// const nilai = "80";
 
-if (nilai > 80) {
-  console.log("A");
-} else if (nilai > 60) {
-  console.log("B");
-} else if (nilai > 40) {
-  console.log(C);
-} else console.log("You will remedial");
+// if (nilai > 80) {
+//   console.log("A");
+// } else if (nilai > 60) {
+//   console.log("B");
+// } else if (nilai > 40) {
+//   console.log(C);
+// } else console.log("You will remedial");
