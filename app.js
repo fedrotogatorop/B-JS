@@ -36,15 +36,34 @@
 //   console.log(C);
 // } else console.log("You will remedial");
 
+// const password = prompt("Make Password");
+
+// // Password should be long 6 word character
+// if (password.length >= 6) {
+//   if (password.indexOf(" ") === -1) {
+//     console.log("Password can't has space");
+//   } else {
+//     console.log("Password valid");
+//   }
+// } else {
+//   console.log("Password minimum 6 character");
+// }
+
 const password = prompt("Make Password");
 
-// Password should be long 6 word character
-if (password.length >= 6) {
-  if (password.indexOf(" ") === -1) {
-    console.log("Password can't has space");
-  } else {
-    console.log("Password valid");
-  }
+// // Password should be long 6 word character
+// if (password.length >= 6) {
+//   if (password.indexOf(" ") === -1) {
+//     console.log("Password can't has space");
+//   } else {
+//     console.log("Password valid");
+//   }
+// } else {
+//   console.log("Password minimum 6 character");
+// }
+
+if (password.length >= 6 && password.indexOf(" " === -1)) {
+  console.log("Password Valid");
 } else {
-  console.log("Password minimum 6 character");
+  console.log("Password invalid");
 }
