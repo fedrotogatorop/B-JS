@@ -16,15 +16,15 @@
 //     console.log("The number is smaller than");
 // }
 
-const iniHari = "Minggu";
+// const iniHari = prompt("Input day").toLowerCase();
 
-if (iniHari === "Monday") {
-  console.log("Happy Work Week Guys");
-} else if (iniHari === "Sabtu") {
-  console.log("Happy Weekend Guys");
-} else {
-  console.log("same as like Work Week");
-}
+// if (iniHari === "monday") {
+//   console.log("Happy Work Week Guys");
+// } else if (iniHari === "saturday") {
+//   console.log("Happy Weekend Guys");
+// } else {
+//   console.log("same as like as Work Week");
+// }
 
 // const nilai = "80";
 
@@ -35,3 +35,16 @@ if (iniHari === "Monday") {
 // } else if (nilai > 40) {
 //   console.log(C);
 // } else console.log("You will remedial");
+
+const password = prompt("Make Password");
+
+// Password should be long 6 word character
+if (password.length >= 6) {
+  if (password.indexOf(" ") === -1) {
+    console.log("Password can't has space");
+  } else {
+    console.log("Password valid");
+  }
+} else {
+  console.log("Password minimum 6 character");
+}
