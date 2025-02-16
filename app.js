@@ -49,7 +49,7 @@
 //   console.log("Password minimum 6 character");
 // }
 
-const password = prompt("Make Password");
+// const password = prompt("Make Password");
 
 // // Password should be long 6 word character
 // if (password.length >= 6) {
@@ -62,8 +62,35 @@ const password = prompt("Make Password");
 //   console.log("Password minimum 6 character");
 // }
 
-if (password.length >= 6 && password.indexOf(" " === -1)) {
-  console.log("Password Valid");
-} else {
-  console.log("Password invalid");
+// if (password.length >= 6 && password.indexOf(" " === -1)) {
+//   console.log("Password Valid");
+// } else {
+//   console.log("Password invalid");
+// }
+
+// const role = prompt("input account role");
+// if (role === "admin" || role === "spv") {
+//   console.log("You can't access");
+// } else {
+//   console.log("you can access");
+// }
+
+// const role = prompt("input account role");
+// if (role !== "admin") {
+//   console.log("You can't access");
+// } else {
+//   console.log("you can access");
+// }
+
+const balonku = prompt("Input warna balon");
+switch (balonku) {
+  case "merah":
+    console.log("merah");
+    break;
+  case "hijau":
+    console.log("hijau");
+    break;
+  case "biru":
+    console.log("biru");
+    break;
 }
