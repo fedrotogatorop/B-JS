@@ -96,3 +96,8 @@
 // }
 
 // array
+let playlist = ["1", "2", "3", "4"];
+console.log(playlist[3]);
+console.log(playlist[2]);
+console.log(playlist[1]);
+console.log(playlist[0]);
