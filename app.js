@@ -96,8 +96,14 @@
 // }
 
 // array
-let playlist = ["1", "2", "3", "4"];
-console.log(playlist[3]);
-console.log(playlist[2]);
-console.log(playlist[1]);
-console.log(playlist[0]);
+// let playlist = ["1", "2", "3", "4"];
+// console.log(playlist[3]);
+// console.log(playlist[2]);
+// console.log(playlist[1]);
+// console.log(playlist[0]);
+// console.log((playlist[2] = "Hijau"));
+
+// Pengulangan
+for (let i = 1; i < 10; i += 1) {
+  console.log(i);
+}
