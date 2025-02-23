@@ -82,15 +82,17 @@
 //   console.log("you can access");
 // }
 
-const balonku = prompt("Input warna balon");
-switch (balonku) {
-  case "merah":
-    console.log("merah");
-    break;
-  case "hijau":
-    console.log("hijau");
-    break;
-  case "biru":
-    console.log("biru");
-    break;
-}
+// const balonku = prompt("Input warna balon");
+// switch (balonku) {
+//   case "merah":
+//     console.log("merah");
+//     break;
+//   case "hijau":
+//     console.log("hijau");
+//     break;
+//   case "biru":
+//     console.log("biru");
+//     break;
+// }
+
+// array
