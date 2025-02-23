@@ -112,10 +112,15 @@
 //   console.log(i);
 // }
 
-for (let i = 100; i >= 0; i -= 1) {
-  console.log(i);
-}
+// for (let i = 100; i >= 0; i -= 1) {
+//   console.log(i);
+// }
 
-for (let i = 0; i <= 10; i += 2) {
-  console.log(i);
+// for (let i = 0; i <= 10; i += 2) {
+//   console.log(i);
+// }
+
+const animals = ["Cat", "Dog", "Fly", "Dragon Fly", "Be"];
+for (let i = 0; i < animals.length; i++) {
+  console.log(i, animals[i]);
 }
