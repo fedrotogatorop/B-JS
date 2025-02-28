@@ -120,7 +120,155 @@
 //   console.log(i);
 // }
 
-const animals = ["Cat", "Dog", "Fly", "Dragon Fly", "Be"];
-for (let i = 0; i < animals.length; i++) {
-  console.log(i, animals[i]);
-}
+// const animals = ["Cat", "Dog", "Fly", "Dragon Fly", "Be"];
+// for (let i = 0; i < animals.length; i++) {
+//   console.log(i, animals[i]);
+// }
+
+// const pilihan = "abcd";
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${i}. Soal Nomor ${1}:`);
+//   for (let j = 0; j < pilihan.length; j++) {
+//     console.log(`${pilihan[j]}. Pilihan jawaban`);
+//   }
+// }
+
+// const studentRow = [
+//   ["Livia", "Fedro", "Emma", "Noah"],
+//   ["Joel", "Jeri", "Markus", "Sinta"],
+//   ["Pars", "Marsha", "Handa", "Taui"],
+// ];
+
+// for (let i = 0; i < studentRow.length; i++) {
+//   const row = studentRow[i];
+//   console.log(`Seat Row #${i + 1}`);
+//   for (let j = 0; j < row.length; j++) {
+//     console.log(row[j]);
+//   }
+// }
+
+// let num = 0;
+// while (num < 10) {
+//   console.log(num);
+//   num++;
+// }
+
+// for (let num = 0; num < 10; num++) {
+//   console.log(num);
+// }
+
+// const password = "12345";
+// let guess = prompt("enter your password");
+// while (guess !== password) {
+//   guess = prompt("enter your password");
+// }
+// alert("congratulation your password is corect");
+
+// const pw = "1";
+// let owner = prompt("enter your password boss");
+// while (owner !== password) {
+//   owner = prompt("enter your password boss");
+// }
+// alert("congratulation boss");
+
+// let maximum = parseInt(prompt("masukkan nilai maksimal"));
+// while (!maximum) {
+//   maximum = parseInt(prompt("Masukkan nilai maksimal"));
+// }
+
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// console.log(targetNum);
+
+// let guess = parseInt(prompt("Isi tebakkan pertama kamu"));
+// while (parseInt(guess) !== targetNum) {
+//   if (guess > targetNum) {
+//     guess = prompt("Terlalu tinggi! tebak lagi");
+//   } else {
+//     guess = prompt("Terbakan telalu rendah");
+//   }
+// }
+
+// alert("selamat anda benar");
+
+const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
+
+// for (let i = 0; i < fruit.length; i++) {
+//   console.log(`buah ${fruit[i]}`);
+// }
+
+// for (let fruit of fruits) {
+//   console.log(`buah ${fruit}`);
+// }
+
+// const studentRow = [
+//   ["Livia", "Fedro", "Emma", "Noah"],
+//   ["Joel", "Jeri", "Markus", "Sinta"],
+//   ["Pars", "Marsha", "Handa", "Taui"],
+// ];
+// for (let row of studentRow) {
+//   for (let student of row) {
+//     console.log(student);
+//   }
+// }
+
+// function twoSum(arr, target) {
+//   let hasil = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[i] + arr[j] === target) {
+//         hasil.push([arr[i], arr[j]]);
+//         return hasil;
+//       }
+//     }
+//   }
+//   return hasil;
+// }
+
+// // Contoh penggunaan:
+// let angka = [5, 1, 2];
+// console.log(twoSum(angka, 5)); // Output: [[1, 2]]
+
+// function twoSum(nums, target) {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//       if (nums[i] + nums[j] == target) {
+//         return [i, j];
+//       }
+//     }
+//   }
+//   return;
+// }
+
+// console.log(twoSum([2, 7, 11, 15], 9));
+
+// const getLastWordLength = (sentence) => { / fail
+//   const words = sentence.splt("Halo").filter((word) => word !== "");
+//   return words.getLastWordLength > 0 ? words[words.length - 1].length : 0;
+// };
+
+// var lengthOfLastWord = function (s) {
+//   let result = s.trim().split("hallo ini saya");
+//   result = result[result.length - 1].length;
+//   return result;
+// };
+
+// const studentScore = {
+//   olivia: 20,
+//   Liam: 13,
+//   Emma: 40,
+//   Noah: 18,
+//   Oliver: 10,
+//   Ava: 11,
+//   Elijah: 21,
+// };
+// // for (let student in studentScore) {
+// //   console.log(`${student} memiliki skor ${studentScore[student]}`);
+// // }
+
+// let total = 0;
+// let scores = Object.values(studentScore);
+// for(let score of scores)
+//   total+=score;
+
+let lemparDadu = Math.floor(Math.random() * 6) + 1;
+console.log(lemparDadu);
