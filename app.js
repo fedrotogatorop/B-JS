@@ -270,5 +270,16 @@ const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
 // for(let score of scores)
 //   total+=score;
 
-let lemparDadu = Math.floor(Math.random() * 6) + 1;
-console.log(lemparDadu);
+// let lemparDadu = Math.floor(Math.random() * 6) + 1;
+// console.log(lemparDadu);
+
+// function lemparDadu() {
+//   console.log(Math.random() * 6 + 1);
+// }
+
+// function nanyi() {
+//   console.log("Cek...");
+//   console.log("Do re mi");
+// }
+
+// nanyi();
