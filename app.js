@@ -283,3 +283,9 @@ const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
 // }
 
 // nanyi();
+
+function selamatPagi(name) {
+  console.log(`halo, ${name}. Selamat Pagi`);
+}
+
+selamatPagi("Aim");
