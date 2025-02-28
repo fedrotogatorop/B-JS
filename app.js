@@ -284,8 +284,30 @@ const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
 
 // nanyi();
 
-function selamatPagi(name) {
-  console.log(`halo, ${name}. Selamat Pagi`);
-}
+// function selamatPagi(name) {
+//   console.log(`halo, ${name}. Selamat Pagi`);
+// }
 
-selamatPagi("Aim");
+// selamatPagi("Aim");
+
+// const nama = "Fedro";
+// const umur = 22;
+// console.log(`Halo, perkenalkan nama saya ${nama}, dan saya ber-umur ${umur}`);
+
+// function jumlahkan(a, b) {
+//   if (typeof a !== "number" || typeof b !== "number") {
+//     return "Bukan angka";
+//   }
+//   return a + b;
+// }
+
+// let programming = "JavaScript";
+// // local scope and global scope
+// function typeSafe() {
+//   // let programming = "TypeScript";
+//   programming = "TypeScript";
+//   console.log(programming);
+// }
+// // console.log(programming);
+// typeSafe();
+
