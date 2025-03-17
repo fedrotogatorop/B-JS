@@ -190,7 +190,7 @@
 
 // alert("selamat anda benar");
 
-const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
+// const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
 
 // for (let i = 0; i < fruit.length; i++) {
 //   console.log(`buah ${fruit[i]}`);
@@ -311,3 +311,44 @@ const fruits = ["Banana", "Dragon Fruit", "Apple", "Strawberry"];
 // // console.log(programming);
 // typeSafe();
 
+// let tinggi = 8;
+// if (tinggi > 5) {
+//   // let lebar = 10;
+//   var lebar = 10; //var itu bisa digunakan untuk semua scope walaupun di deklarasikan di local scope
+//   console.log(lebar); // Disarankan untuk tidak menggunakan variable var
+// }
+// console.log(`lebar, ${lebar}`);
+
+// for (let i = 0; i < 10; i++) {
+//   var indexNumber = i;
+// }
+// console.log(`Ini adalah nomor ${indexNumber}`);
+
+// console.log("Hello ini adalah pertama kali saya belajar NODE JS");
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(`Angka ke. ${i}.`);
+// }
+
+// function perpangkatan(nilai) {
+//   return nilai * nilai;
+// }
+// let hasil = perpangkatan(5);
+
+// const hasilPerpangkatan = function (nilai) {
+//   return nilai * nilai;
+// };
+
+// hasilPerpangkatan(10);
+
+// function di dalam function
+
+// function duaKali(func) {
+//   func();
+//   func();
+// }
+
+// function lemparDadu() {
+//   const hasil = Math.random(Math.random() * 6) + 1;
+//   console.log(hasil);
+// }
