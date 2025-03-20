@@ -352,3 +352,11 @@
 //   const hasil = Math.random(Math.random() * 6) + 1;
 //   console.log(hasil);
 // }
+
+// const saya = {
+//   nama: "aim",
+//   hobi: "Mancing",
+//   kenalan: function () {
+//     return `Hi, Saya ${this.nama}. Hobi saya ${this.hobi}`;
+//   },
+// };
