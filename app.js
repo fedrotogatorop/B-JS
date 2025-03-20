@@ -360,3 +360,12 @@
 //     return `Hi, Saya ${this.nama}. Hobi saya ${this.hobi}`;
 //   },
 // };
+
+// function teriak(msg) {
+//   try {
+//     console.log(msg.toUpperCase());
+//   } catch (error) {
+//     console.log(error);
+//     console.log("Silahkan masukkan tipe data string pada argument teriak()");
+//   }
+// }
