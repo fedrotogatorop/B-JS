@@ -378,21 +378,39 @@
 //   }
 // });
 
-const animes = [
-  {
-    title: "Attack on Titan",
-    rating: 90,
-  },
-  {
-    title: "Bleach",
-    rating: 89,
-  },
-  {
-    title: "Naruto",
-    rating: 95,
-  },
-];
+// const animes = [
+//   {
+//     title: "Attack on Titan",
+//     rating: 90,
+//   },
+//   {
+//     title: "Bleach",
+//     rating: 89,
+//   },
+//   {
+//     title: "Naruto",
+//     rating: 95,
+//   },
+// ];
 
-animes.forEach(function (anime) {
-  console.log(`${anime.title} - ${anime.rating}/100`);
-});
+// animes.forEach(function (anime) {
+//   console.log(`${anime.title} - ${anime.rating}/100`);
+// });
+
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angkaDouble = angka.map(function (num) {
+//   return number * 2;
+// });
+
+// angka.forEach(function (el) {
+//   if (el % 2 === 0) {
+//     console.log(el);
+//   }
+// });
+
+// const perpangkatan = (x) => {
+//   return x * x;
+// };
+
+const random = () => Math.floor(Math.random() * 1000);
+const add = (a, b) => a + b;
