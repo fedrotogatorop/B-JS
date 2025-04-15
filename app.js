@@ -412,5 +412,60 @@
 //   return x * x;
 // };
 
-const random = () => Math.floor(Math.random() * 1000);
-const add = (a, b) => a + b;
+// const random = () => Math.floor(Math.random() * 1000);
+// const add = (a, b) => a + b;
+
+// function myFunction(a, b) {
+//   if (a.includes(b)) {
+//     return b + a;
+//   } else {
+//     return a + b;
+//   }
+// }
+
+// console.log(myFunction("cheese", "cake"));
+
+const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angkaGanjil = angka.filter((n) => {
+//   return n % 2 === 1;
+// });
+// const angkaGenap = angka.filter((n) => {
+//   return n % 2 === 0;
+// });
+
+// const angkaBaru = angka.filter((n) => {
+//   return n < 5;
+// });
+
+const animes = [
+  {
+    title: "Attack On Titan",
+    rating: 90,
+    year: 2023,
+  },
+  {
+    title: "Naruto",
+    rating: 95,
+    year: 2024,
+  },
+  {
+    title: "One Piece",
+    rating: 80,
+    year: 2022,
+  },
+  {
+    title: "Boruto",
+    rating: 88,
+    year: 2023,
+  },
+  {
+    title: "Tayo",
+    rating: 70,
+    year: 2018,
+  },
+];
+
+const animeBagus = animes.filter((anime) => anime.rating >= 85);
+const animeJudulBagus = animeBagus.map((anime) => anime.title);
+const animeBaja = animes.filter((anime) => anime.rating <= 85);
+const animeTahun = animes.filter((anime) => anime.year <= 2023);
