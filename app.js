@@ -425,7 +425,7 @@
 
 // console.log(myFunction("cheese", "cake"));
 
-const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const angkaGanjil = angka.filter((n) => {
 //   return n % 2 === 1;
 // });
@@ -437,6 +437,10 @@ const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //   return n < 5;
 // });
 
+const examScore = [80, 90, 85, 82, 95, 77];
+const isGraduate = examScore.every((score) => score >= 75); //every
+const lulus = examScore.some((score) => score >= 96); //practice for some
+const TidakLulus = examScore.every((nilai) => nilai >= 77); //practice
 const animes = [
   {
     title: "Attack On Titan",
@@ -469,3 +473,4 @@ const animeBagus = animes.filter((anime) => anime.rating >= 85);
 const animeJudulBagus = animeBagus.map((anime) => anime.title);
 const animeBaja = animes.filter((anime) => anime.rating <= 85);
 const animeTahun = animes.filter((anime) => anime.year <= 2023);
+const isAnimeListNew = animes.some((anime) => anime.year > 2025); //some
