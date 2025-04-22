@@ -532,13 +532,25 @@
 // const nama = ["fedro", "amad", "richardo", "sela", "Cici"];
 // const campuran = [...angka, ...nama];
 
-const user = {
-  name: "fedro",
-  email: "fedrotoga@gmail.com",
-};
-const credential = {
-  password: "password",
-  token: "1287ejhd",
-};
+// const user = {
+//   name: "fedro",
+//   email: "fedrotoga@gmail.com",
+// };
+// const credential = {
+//   password: "password",
+//   token: "1287ejhd",
+// };
 
-const userBaru = { ...user, ...credential };
+// const userBaru = { ...user, ...credential };
+
+// const sumAll = (...nums) => {
+//   return nums.reduce((total, el) => total + el);
+// };
+
+const name = ["Fedro", "Saut", "wibisono", "Togatorop"];
+const winner = (gold, silver, bronze, ...sisa) => {
+  console.log(`Medali emas diraih ${gold}`);
+  console.log(`Medali silver diraih ${silver}`);
+  console.log(`Medali bronze diraih ${bronze}`);
+  console.log(`peserta lainnya ${sisa}`);
+};
