@@ -519,3 +519,26 @@
 //     },S3000)
 //   }
 // };
+
+// function lemparDadu(sisi = 6) {
+//   return Math.floor(Math.random() * sisi) + 1;
+// }
+
+// function sapa(name, msg = "halo") {
+//   console.log(`${name} ${msg}`);
+// }
+
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const nama = ["fedro", "amad", "richardo", "sela", "Cici"];
+// const campuran = [...angka, ...nama];
+
+const user = {
+  name: "fedro",
+  email: "fedrotoga@gmail.com",
+};
+const credential = {
+  password: "password",
+  token: "1287ejhd",
+};
+
+const userBaru = { ...user, ...credential };
