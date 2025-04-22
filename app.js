@@ -437,40 +437,85 @@
 //   return n < 5;
 // });
 
-const examScore = [80, 90, 85, 82, 95, 77];
-const isGraduate = examScore.every((score) => score >= 75); //every
-const lulus = examScore.some((score) => score >= 96); //practice for some
-const TidakLulus = examScore.every((nilai) => nilai >= 77); //practice
-const animes = [
-  {
-    title: "Attack On Titan",
-    rating: 90,
-    year: 2023,
-  },
-  {
-    title: "Naruto",
-    rating: 95,
-    year: 2024,
-  },
-  {
-    title: "One Piece",
-    rating: 80,
-    year: 2022,
-  },
-  {
-    title: "Boruto",
-    rating: 88,
-    year: 2023,
-  },
-  {
-    title: "Tayo",
-    rating: 70,
-    year: 2018,
-  },
-];
+// const examScore = [80, 90, 85, 82, 95, 77];
+// const isGraduate = examScore.every((score) => score >= 75); //every
+// const lulus = examScore.some((score) => score >= 96); //practice for some
+// const TidakLulus = examScore.every((nilai) => nilai >= 77); //practice
 
-const animeBagus = animes.filter((anime) => anime.rating >= 85);
-const animeJudulBagus = animeBagus.map((anime) => anime.title);
-const animeBaja = animes.filter((anime) => anime.rating <= 85);
-const animeTahun = animes.filter((anime) => anime.year <= 2023);
-const isAnimeListNew = animes.some((anime) => anime.year > 2025); //some
+// // for (let score of examScore) {
+// //   total += score;
+// // }
+
+// const total = examScore.reduce((total, score) => {
+//   return total + score;
+// });
+// const animes = [
+//   {
+//     title: "Attack On Titan",
+//     rating: 90,
+//     year: 2023,
+//   },
+//   {
+//     title: "Naruto",
+//     rating: 95,
+//     year: 2024,
+//   },
+//   {
+//     title: "One Piece",
+//     rating: 80,
+//     year: 2022,
+//   },
+//   {
+//     title: "Boruto",
+//     rating: 88,
+//     year: 2023,
+//   },
+//   {
+//     title: "Tayo",
+//     rating: 70,
+//     year: 2018,
+//   },
+//   {
+//     title: "Pulu",
+//     rating: 84,
+//     year: 2012,
+//   },
+// ];
+
+// const animeBagus = animes.filter((anime) => anime.rating >= 85); //filter
+// const animeJudulBagus = animeBagus.map((anime) => anime.title); //--
+// const animeBaja = animes.filter((anime) => anime.rating <= 85); //--
+// const animeTahun = animes.filter((anime) => anime.year <= 2023); //--
+// const isAnimeListNew = animes.some((anime) => anime.year > 2025); //some
+
+// // const bestAnime = animes.reduce((bestAnime, currAnime) => {
+// //   //reduce
+// //   console.log(bestAnime, currAnime);
+// //   if (currAnime.rating > bestAnime.rating) {
+// //     return currAnime;
+// //   }
+// //   return bestAnime;
+// // });
+
+// const badAnime = animes.reduce((badAnime, currAnime) => {
+//   console.log(badAnime, currAnime);
+//   if (currAnime.rating > badAnime.rating) {
+//     return currAnime;
+//   }
+//   return badAnime;
+// });
+
+// const person = {
+//   firstName: "Fedro",
+//   lastName: "Togatorop",
+//   fullName: () => {
+//     console.log(this);
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+//   panggilNanti: function(){
+//     setTimeout(function (){
+//       console.log(this.firstName);
+
+//     },S3000)
+//   }
+// };
