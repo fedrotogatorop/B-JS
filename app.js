@@ -547,10 +547,46 @@
 //   return nums.reduce((total, el) => total + el);
 // };
 
-const name = ["Fedro", "Saut", "wibisono", "Togatorop"];
-const winner = (gold, silver, bronze, ...sisa) => {
-  console.log(`Medali emas diraih ${gold}`);
-  console.log(`Medali silver diraih ${silver}`);
-  console.log(`Medali bronze diraih ${bronze}`);
-  console.log(`peserta lainnya ${sisa}`);
-};
+// const name = ["Fedro", "Saut", "wibisono", "Togatorop"];
+// const winner = (gold, silver, bronze, ...sisa) => {
+//   console.log(`Medali emas diraih ${gold}`);
+//   console.log(`Medali silver diraih ${silver}`);
+//   console.log(`Medali bronze diraih ${bronze}`);
+//   console.log(`peserta lainnya ${sisa}`);
+// };
+// const = [gold, silver, bronze, ...sisa]=name
+// const peserta = ["batman", "superman", "suparman"];
+// const [satu, dua, tiga] = peserta;
+// const [juara, ...peserta] = peserta;
+
+// const user = {
+//   name: "fedro",
+//   email: "fedrotoga@gmail.com",
+//   role: "admin",
+// };
+// // const { name, email, phone } = user;
+// const userAndRole = ({ name, role }) => {
+//   return `${name} ${role}`;
+// };
+
+const animes = [
+  {
+    title: "Attack on Titan",
+    rating: 90,
+    year: 2002,
+  },
+  {
+    title: "Bleach",
+    rating: 89,
+    year: 2001,
+  },
+  {
+    title: "Naruto",
+    rating: 95,
+    year: 2002,
+  },
+];
+
+const anime = animes.map((title, year, rating) => {
+  return `${title} (${year}) ${rating}`;
+});
